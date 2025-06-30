@@ -5,8 +5,6 @@
 
 A modern, responsive portfolio built with **React + Vite**, showcasing my projects, skills, and contact information.
 
-🔗 **Live Demo:** [your-portfolio-url.vercel.app](https://your-portfolio-url.vercel.app)  
-
 ![Portfolio Screenshot](./public/capture.png)
 
 ---
@@ -24,7 +22,7 @@ A modern, responsive portfolio built with **React + Vite**, showcasing my projec
 |----------------|--------------------------------------------|
 | **Frontend**   | React, Vite, JavaScript                    |
 | **Styling**    | CSS3, Bootstrap                            |
-| **Deployment** | Vercel/Netlify/GitHub Pages                |
+| **Deployment** | GitHub Pages                               |
 | **Tools**      |  Git                                       |
 
 ---
