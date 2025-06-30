@@ -13,7 +13,6 @@ A modern, responsive portfolio built with **React + Vite**, showcasing my projec
 - ⚡ **Blazing Fast** (Vite-powered)
 - 📱 **Fully Responsive** (Mobile, Tablet, Desktop)
 - 🎨 **Smooth Animations** (Framer Motion or CSS)
-- 📬 **Contact Form** (EmailJS or Netlify)
 
 ---
 
