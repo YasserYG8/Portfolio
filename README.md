@@ -1,12 +1,35 @@
-# React + Vite
+# Portfolio 🌟
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Vite](https://img.shields.io/badge/Vite-4.4.5-%23646CFF?logo=vite)
+![React](https://img.shields.io/badge/React-18.2-%2361DAFB?logo=react)
 
-Currently, two official plugins are available:
+A modern, responsive portfolio built with **React + Vite**, showcasing my projects, skills, and contact information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Demo:** [your-portfolio-url.vercel.app](https://your-portfolio-url.vercel.app)  
 
-## Expanding the ESLint configuration
+![Portfolio Screenshot](./public/capture.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+- ⚡ **Blazing Fast** (Vite-powered)
+- 📱 **Fully Responsive** (Mobile, Tablet, Desktop)
+- 🎨 **Smooth Animations** (Framer Motion or CSS)
+- 📬 **Contact Form** (EmailJS or Netlify)
+
+---
+
+## 🛠️ Tech Stack
+| Category       | Technologies Used                          |
+|----------------|--------------------------------------------|
+| **Frontend**   | React, Vite, JavaScript                    |
+| **Styling**    | CSS3, Bootstrap                            |
+| **Deployment** | Vercel/Netlify/GitHub Pages                |
+| **Tools**      |  Git                                       |
+
+---
+
+## 🖥️ Installation
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/YasserYG8/Portfolio.git
