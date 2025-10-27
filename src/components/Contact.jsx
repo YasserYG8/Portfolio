@@ -16,32 +16,12 @@ export const Contact = () => {
     const [status, setStatus] = useState({});
     const handleSubmit = async (e) => {
         e.preventDefault();
-        setButtonText("sending...");
-        let reponse = await fetch("http://localhost:5173/contact", {
-            method: "POST",
-            headers: {
-                "Content-type": "Application/json;charset=utf-8",
-            },
-            body: JSON.stringify(forme)
-        });
-        setButtonText("Send");
-        let result = reponse.json();
-        setForme(formeInitial);
-        if (result.code == 2000) {
-            setStatus({ success: true, message: "Message sent succesfully" });
-        }
-        else {
-            setStatus({ success: false, message: "Please try again later " });
-        }
-    }
-    const updateForme = (category, value) => {
-        setForme({ ...forme, [category]: value });
     }
     return (
         <section className="contact">
             <TrackVisibility>
             {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__fadeInDownBig" : ""}>
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                     <Container>
                         <Row className="align-items-center">
                             <Col md={6}>

@@ -3,9 +3,10 @@ import { Col } from "react-bootstrap";
 
 export const ProjectCard = ({ title, description, imageUrl, link }) => {
     if (link) {
+        console.log(link);
         return (
             <Col sm={6} md={4}>
-                <a href=" https://yasseryg8.github.io/takwira_tn/Takwira%20TN_main_branch/index.html" style={{ color: "white" }} target="_blink">
+                <a href={link} style={{ color: "white" }} target="_blink">
                     <div className="proj-imgbx">
                         <img src={imageUrl} alt="nothing" />
                         <div className="proj-txtx">
